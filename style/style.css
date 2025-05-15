@@ -1,0 +1,66 @@
+body{ 
+      font-family: Arial, sans-serif;
+      background-color: #f1f3f5;
+      padding: 20px;
+    }
+    .editor, .preview, .codigo {
+      width: 800px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    #headerPreview {
+      display: flex;
+      gap: 10px;
+      min-height: 120px;
+      padding: 10px;
+      border: 2px dashed #ccc;
+      align-items: center;
+    }
+    #menuPreview {
+      min-height: 60px;
+      padding: 10px;
+      border: 2px dashed #ccc;
+      background-color: #ffffff;
+      display: flex;
+      gap: 5px;
+      flex-wrap: wrap;
+    }
+    .menu-item {
+      display: inline-block;
+      padding: 10px;
+      background-color: #e9ecef;
+      border: 1px solid #ccc;
+      cursor: default;
+      border-radius: 4px;
+      user-select: none;
+    }
+    .gallery-card {
+        border-radius: 6px;
+        box-sizing: border-box;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .gallery-card img {
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    .gallery-card-description {
+        padding: 8px;
+        font-size: 14px;
+    }
+    #formFieldsContainer > .form-field {
+        border: 1px solid #ddd;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+    #formFieldsContainer .form-field label {
+        font-weight: 600;
+    }
